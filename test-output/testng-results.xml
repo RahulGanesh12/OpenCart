@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T20:49:07 IST" name="OpenCartSuite" finished-at="2023-12-13T20:50:36 IST" duration-ms="89859">
+    <groups>
+    </groups>
+    <test started-at="2023-12-13T20:49:07 IST" name="OpenCartTest" finished-at="2023-12-13T20:50:36 IST" duration-ms="89859">
+      <class name="com.qa.opencart.test.MyAccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:08 IST" name="setup" finished-at="2023-12-13T20:50:17 IST" duration-ms="8163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitleTest()[pri:1, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:17 IST" name="verifyPageTitleTest" finished-at="2023-12-13T20:50:17 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:17 IST" name="tearDown" finished-at="2023-12-13T20:50:17 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:17 IST" name="setup" finished-at="2023-12-13T20:50:25 IST" duration-ms="8275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchContent()[pri:2, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:25 IST" name="verifySearchContent" finished-at="2023-12-13T20:50:28 IST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:28 IST" name="tearDown" finished-at="2023-12-13T20:50:28 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:28 IST" name="setup" finished-at="2023-12-13T20:50:36 IST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMyAccountPageLogoTest()[pri:3, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:36 IST" name="verifyMyAccountPageLogoTest" finished-at="2023-12-13T20:50:36 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.MyAccountPageTest@557caf28]" started-at="2023-12-13T20:50:36 IST" name="tearDown" finished-at="2023-12-13T20:50:36 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.MyAccountPageTest -->
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:07 IST" name="setup" finished-at="2023-12-13T20:49:09 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:09 IST" name="verifyLoginPageTitleTest" finished-at="2023-12-13T20:49:09 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:09 IST" name="tearDown" finished-at="2023-12-13T20:49:10 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:10 IST" name="setup" finished-at="2023-12-13T20:49:12 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:2, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:12 IST" name="verifyLogin" finished-at="2023-12-13T20:49:16 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@4d5d943d]" started-at="2023-12-13T20:49:16 IST" name="tearDown" finished-at="2023-12-13T20:49:16 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+      <class name="com.qa.opencart.test.RegisterAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:16 IST" name="setUp" finished-at="2023-12-13T20:49:18 IST" duration-ms="1893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:18 IST" name="verifyPageTitle" finished-at="2023-12-13T20:49:18 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:18 IST" name="tearDown" finished-at="2023-12-13T20:49:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:19 IST" name="setUp" finished-at="2023-12-13T20:49:21 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegisterWithData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:21 IST" name="accountRegisterWithData" data-provider="testData" finished-at="2023-12-13T20:49:29 IST" duration-ms="7732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rah123@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul123@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegisterWithData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:29 IST" name="tearDown" finished-at="2023-12-13T20:49:29 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:29 IST" name="setUp" finished-at="2023-12-13T20:49:31 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegisterWithData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:31 IST" name="accountRegisterWithData" data-provider="testData" finished-at="2023-12-13T20:49:39 IST" duration-ms="7676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[XYZ@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xyzXYZ@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegisterWithData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:39 IST" name="tearDown" finished-at="2023-12-13T20:49:39 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:39 IST" name="setUp" finished-at="2023-12-13T20:49:41 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegisterWithData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:41 IST" name="accountRegisterWithData" data-provider="testData" finished-at="2023-12-13T20:49:48 IST" duration-ms="7628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCabc@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegisterWithData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:48 IST" name="tearDown" finished-at="2023-12-13T20:49:49 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:49 IST" name="setUp" finished-at="2023-12-13T20:49:51 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegisterWithData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:51 IST" name="accountRegisterWithData" data-provider="testData" finished-at="2023-12-13T20:49:58 IST" duration-ms="7673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEF@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DEFdef@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegisterWithData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:58 IST" name="tearDown" finished-at="2023-12-13T20:49:59 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:49:59 IST" name="setUp" finished-at="2023-12-13T20:50:00 IST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountRegister()[pri:3, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:50:00 IST" name="accountRegister" finished-at="2023-12-13T20:50:08 IST" duration-ms="7727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.RegisterAccountTest@75d4a5c2]" started-at="2023-12-13T20:50:08 IST" name="tearDown" finished-at="2023-12-13T20:50:08 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.RegisterAccountTest -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
