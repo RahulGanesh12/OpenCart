@@ -1,0 +1,54 @@
+2023-12-14 19:51:45,312 INFO c.q.o.t.LoginPageTest [main] Launched Browser
+2023-12-14 19:51:45,456 INFO c.q.o.t.LoginPageTest [main] Clicked My Account Button
+2023-12-14 19:51:45,866 INFO c.q.o.t.LoginPageTest [main] Clicked Login
+2023-12-14 19:51:46,072 INFO c.q.o.t.LoginPageTest [main] Exit Browser
+2023-12-14 19:51:47,496 INFO c.q.o.t.LoginPageTest [main] Launched Browser
+2023-12-14 19:51:47,622 INFO c.q.o.t.LoginPageTest [main] Clicked My Account Button
+2023-12-14 19:51:48,104 INFO c.q.o.t.LoginPageTest [main] Clicked Login
+2023-12-14 19:51:52,474 INFO c.q.o.t.LoginPageTest [main] Entered Email and Password
+2023-12-14 19:51:52,658 INFO c.q.o.t.LoginPageTest [main] Exit Browser
+2023-12-14 19:51:54,132 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:51:54,244 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:51:54,692 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:51:54,897 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:51:56,867 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:51:56,969 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:51:57,394 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:52:05,058 INFO c.q.o.t.RegisterAccountTest [main] Entered Details
+2023-12-14 19:52:05,246 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:52:06,642 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:52:06,751 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:52:07,176 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:52:14,843 INFO c.q.o.t.RegisterAccountTest [main] Entered Details
+2023-12-14 19:52:15,037 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:52:16,433 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:52:16,546 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:52:16,947 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:52:24,615 INFO c.q.o.t.RegisterAccountTest [main] Entered Details
+2023-12-14 19:52:24,818 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:52:26,100 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:52:26,209 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:52:26,657 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:52:34,308 INFO c.q.o.t.RegisterAccountTest [main] Entered Details
+2023-12-14 19:52:34,493 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:52:35,828 INFO c.q.o.t.RegisterAccountTest [main] Launched Browser
+2023-12-14 19:52:35,922 INFO c.q.o.t.RegisterAccountTest [main] Clicked My Account Button
+2023-12-14 19:52:36,332 INFO c.q.o.t.RegisterAccountTest [main] Clicked Register Button
+2023-12-14 19:52:44,069 INFO c.q.o.t.RegisterAccountTest [main] Entered Details
+2023-12-14 19:52:44,272 INFO c.q.o.t.RegisterAccountTest [main] Exit Browser
+2023-12-14 19:52:45,585 INFO c.q.o.t.MyAccountPageTest [main] Launched Browser
+2023-12-14 19:52:45,689 INFO c.q.o.t.MyAccountPageTest [main] Clicked My Account Button
+2023-12-14 19:52:46,095 INFO c.q.o.t.MyAccountPageTest [main] Clicked Login Button
+2023-12-14 19:52:50,433 INFO c.q.o.t.MyAccountPageTest [main] Entered Email and Password
+2023-12-14 19:52:52,631 INFO c.q.o.t.MyAccountPageTest [main] Exit Browser
+2023-12-14 19:52:53,951 INFO c.q.o.t.MyAccountPageTest [main] Launched Browser
+2023-12-14 19:52:54,059 INFO c.q.o.t.MyAccountPageTest [main] Clicked My Account Button
+2023-12-14 19:52:54,501 INFO c.q.o.t.MyAccountPageTest [main] Clicked Login Button
+2023-12-14 19:52:58,834 INFO c.q.o.t.MyAccountPageTest [main] Entered Email and Password
+2023-12-14 19:53:03,692 INFO c.q.o.t.MyAccountPageTest [main] Clicked and entered Search Option
+2023-12-14 19:53:03,866 INFO c.q.o.t.MyAccountPageTest [main] Exit Browser
+2023-12-14 19:53:05,198 INFO c.q.o.t.MyAccountPageTest [main] Launched Browser
+2023-12-14 19:53:05,297 INFO c.q.o.t.MyAccountPageTest [main] Clicked My Account Button
+2023-12-14 19:53:05,712 INFO c.q.o.t.MyAccountPageTest [main] Clicked Login Button
+2023-12-14 19:53:10,037 INFO c.q.o.t.MyAccountPageTest [main] Entered Email and Password
+2023-12-14 19:53:12,280 INFO c.q.o.t.MyAccountPageTest [main] Exit Browser

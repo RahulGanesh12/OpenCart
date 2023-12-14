@@ -26,11 +26,15 @@ public class MyAccountPageTest extends BaseClass {
 	@BeforeMethod
 	public void setup() throws IOException, InterruptedException {
 		initialization();
+		log.info("Launched Browser");
 		hp = new HomePage();
 		hp.clickMyAccount();
+		log.info("Clicked My Account Button");
 		hp.clickLogin();
+		log.info("Clicked Login Button");
 		lp = new LoginPage();
 		map = lp.Login(p.getProperty("Email"), p.getProperty("Password"));
+		log.info("Entered Email and Password");
 		Thread.sleep(2000);
 	}
 
@@ -42,6 +46,7 @@ public class MyAccountPageTest extends BaseClass {
 	@Test(priority = 2)
 	public void verifySearchContent() throws InterruptedException {
 		sp = map.searchContent(p.getProperty("SearchContent"));
+		log.info("Clicked and entered Search Option");
 	}
 
 	@Test(priority = 3)
@@ -52,5 +57,6 @@ public class MyAccountPageTest extends BaseClass {
 	@AfterMethod
 	public void tearDown() {
 		driverQuit();
+		log.info("Exit Browser");
 	}
 }

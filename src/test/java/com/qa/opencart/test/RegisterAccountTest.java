@@ -30,10 +30,13 @@ public class RegisterAccountTest extends BaseClass {
 	@BeforeMethod
 	public void setUp() throws IOException {
 		initialization();
+		log.info("Launched Browser");
 		hp = new HomePage();
 		reg = new Register();
 		hp.clickMyAccount();
+		log.info("Clicked My Account Button");
 		hp.clickRegister();
+		log.info("Clicked Register Button");
 	}
 
 	@Test(priority = 1)
@@ -47,6 +50,7 @@ public class RegisterAccountTest extends BaseClass {
 		AccountCreatedPage = reg.registerAccount(RandomStringUtilsClass.randomAlphabeticString(),
 				RandomStringUtilsClass.randomAlphaNumericString(), RandomStringUtilsClass.randomEmailGenerator(),
 				RandomStringUtilsClass.randomPasswordGenerator());
+		log.info("Entered Details");
 	}
 
 	@DataProvider
@@ -58,10 +62,12 @@ public class RegisterAccountTest extends BaseClass {
 	public void accountRegisterWithData(String FirstName, String LastName, String Email, String Password)
 			throws InterruptedException, IOException {
 		AccountCreatedPage = reg.registerAccount(FirstName, LastName, Email, Password);
+		log.info("Entered Details");
 	}
 
 	@AfterMethod
 	public void tearDown() {
 		driverQuit();
+		log.info("Exit Browser");
 	}
 }

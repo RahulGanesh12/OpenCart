@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,8 +15,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BaseClass {
 	public static WebDriver driver;
 	public Properties p;
+	public Logger log;
 
 	public BaseClass() throws IOException {
+		log = LogManager.getLogger(this.getClass());
 		p = new Properties();
 		FileInputStream file = new FileInputStream(
 				"C:\\Users\\Admin\\OneDrive\\Desktop\\JavaConcepts\\JavaCoding\\OpenCart\\src\\main\\java\\com\\qa\\opencart\\config\\Information.properties");
