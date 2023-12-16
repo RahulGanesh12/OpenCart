@@ -44,7 +44,7 @@ public class MyAccountPageTest extends BaseClass {
 	}
 
 	@Test(priority = 2)
-	public void verifySearchContent() throws InterruptedException {
+	public void verifySearchContent() throws InterruptedException, IOException {
 		sp = map.searchContent(p.getProperty("SearchContent"));
 		log.info("Clicked and entered Search Option");
 	}

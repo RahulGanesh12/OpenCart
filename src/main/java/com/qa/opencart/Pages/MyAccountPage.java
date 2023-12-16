@@ -24,7 +24,7 @@ public class MyAccountPage extends BaseClass {
 		return driver.getTitle();
 	}
 
-	public SearchPage searchContent(String value) throws InterruptedException {
+	public SearchPage searchContent(String value) throws InterruptedException, IOException {
 		Search.sendKeys(value);
 		Thread.sleep(2000);
 		SearchButton.click();
