@@ -9,7 +9,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class RegistrationTestData {
 	public static Object[][] data(String SheetName) throws IOException {
-		FileInputStream file = new FileInputStream("C:\\Users\\Admin\\OneDrive\\Documents\\RegistrationTestData.xlsx");
+		FileInputStream file = new FileInputStream(
+				"C:\\Users\\Admin\\OneDrive\\Desktop\\JavaConcepts\\OpenCart\\TestData\\RegistrationTestData.xlsx");
 		@SuppressWarnings("resource")
 		XSSFWorkbook xw = new XSSFWorkbook(file);
 		XSSFSheet xs = xw.getSheet(SheetName);
@@ -24,5 +25,4 @@ public class RegistrationTestData {
 		}
 		return obj;
 	}
-
 }
